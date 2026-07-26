@@ -78,7 +78,7 @@ portfolio/
 Electronics & Telecommunication Engineering
 
 - GitHub: https://github.com/sirsatshubham9359
-- LinkedIn: *(Add your LinkedIn URL here)*
+- LinkedIn:linkedin.com/in/shubham-sirsat
 
 ## ⭐ Support
 
