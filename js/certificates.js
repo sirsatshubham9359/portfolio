@@ -132,7 +132,7 @@ function createCard(certificate){
 
     return `
 
-            <div class="certificate-card"
+            <div class="certificate-card" 
      data-category="${certificate.category}"
      data-pdf="${certificate.pdf}">
 
@@ -200,17 +200,37 @@ function attachCardEvents() {
 
     const cards = document.querySelectorAll(".certificate-card");
 
+    // Detect touch devices
+    const isTouchDevice =
+        window.matchMedia("(hover: none)").matches ||
+        navigator.maxTouchPoints > 0;
+
     cards.forEach(card => {
+
+        // Get PDF path from data attribute
+        const pdf = card.dataset.pdf;
 
         const button = card.querySelector(".certificate-btn");
 
+        // Button always opens PDF
         button.addEventListener("click", (e) => {
+
             e.stopPropagation();
+
+            window.open(pdf, "_blank", "noopener,noreferrer");
+
         });
 
-        card.addEventListener("click", () => {
-            window.open(card.dataset.pdf, "_blank");
-        });
+        // Entire card clickable only on desktop
+        if (!isTouchDevice) {
+
+            card.addEventListener("click", () => {
+
+                window.open(pdf, "_blank", "noopener,noreferrer");
+
+            });
+
+        }
 
     });
 
