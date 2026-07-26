@@ -1,0 +1,175 @@
+/* ==========================
+      TABLET
+========================== */
+
+@media (max-width:992px){
+
+    .hero{
+
+        flex-direction:column-reverse;
+        text-align:center;
+        padding:140px 6% 60px;
+        gap:40px;
+
+    }
+
+    .hero-content{
+
+        width:100%;
+
+    }
+
+    .hero-description{
+
+        max-width:100%;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+        flex-wrap:wrap;
+
+    }
+
+    .hero-social{
+
+        justify-content:center;
+
+    }
+
+    .about-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ==========================
+      MOBILE
+========================== */
+
+@media (max-width:768px){
+
+    .navbar{
+
+        padding:0 20px;
+
+    }
+
+    .logo{
+
+        font-size:26px;
+
+    }
+
+    .nav-menu{
+
+        gap:15px;
+
+    }
+
+    .nav-menu a{
+
+        font-size:15px;
+
+    }
+
+    .resume-btn{
+
+        display:none;
+
+    }
+
+    .hero h1{
+
+        font-size:40px;
+
+    }
+
+    .hero-role{
+
+        font-size:20px;
+
+    }
+
+    .hero-image img{
+
+        width:280px;
+        height:280px;
+
+    }
+
+    .about{
+
+        padding:70px 20px;
+
+    }
+
+    .about-text{
+
+        padding:25px;
+
+    }
+
+    .about-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .certificate-card{
+
+        width:100%;
+
+    }
+
+}
+
+/* ==========================
+      SMALL MOBILE
+========================== */
+
+@media (max-width:480px){
+
+    .hero{
+
+        padding-top:120px;
+
+    }
+
+    .hero h1{
+
+        font-size:32px;
+
+    }
+
+    .hero-description{
+
+        font-size:15px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .hero-image img{
+
+        width:220px;
+        height:220px;
+
+    }
+
+}
