@@ -379,3 +379,38 @@ gap:28px;
 
 }
 }
+/*================ PROJECTS MOBILE ================*/
+
+@media(max-width:768px){
+
+.projects{
+
+    padding:80px 6%;
+
+}
+
+.project-card{
+
+    width:100%;
+
+}
+
+.project-card img{
+
+    height:190px;
+
+}
+
+.project-content{
+
+    padding:20px;
+
+}
+
+.project-content h3{
+
+    font-size:21px;
+
+}
+
+}
