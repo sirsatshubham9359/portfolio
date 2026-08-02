@@ -320,5 +320,19 @@ gap:28px;
         transform:translateY(-9px) rotate(-45deg);
 
     }
+/* Hide floating skill cards on mobile */
 
+.hero-card,
+.floating-card,
+.hero-skill,
+.hero-badge{
+
+    display: none !important;
+
+}
+.tech{
+
+    display:none;
+
+}
 }
