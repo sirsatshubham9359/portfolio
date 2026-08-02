@@ -1092,3 +1092,578 @@ body{
     background:#0ea5e9;
 
 }
+
+/*======================================
+            CONTACT
+======================================*/
+
+.contact{
+
+    padding:20px 10%;
+
+}
+
+.contact-container{
+
+    display:grid;
+
+    grid-template-columns:0.8fr 1fr;
+
+    gap:18px;
+
+    margin-top:20px;
+
+    align-items:start;
+
+}
+
+/*================ LEFT CARD ================*/
+
+.contact-card{
+
+    background:#161b22;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:16px;
+
+    transition:.35s;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 20px 45px rgba(56,189,248,.18);
+
+}
+
+.contact-badge{
+
+    display:inline-block;
+
+    background:rgba(56,189,248,.12);
+
+    color:#38bdf8;
+
+    border:1px solid rgba(56,189,248,.25);
+
+    padding:10px 18px;
+
+    border-radius:40px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+
+}
+
+.contact-card h2{
+
+    font-size:22px;
+
+    margin-bottom:10px;
+
+}
+
+.contact-text{
+
+    color:#94a3b8;
+
+    font-size:14px;
+
+    line-height:1.5;
+
+    margin-bottom:12px;
+
+}
+
+/*================ CONTACT INFO ================*/
+
+.contact-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.contact-item{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:18px;
+
+    background:#0f172a;
+
+    padding:8px 10px;
+
+    border-radius:16px;
+
+    transition:.3s;
+
+}
+
+.contact-item:hover{
+
+    transform:translateX(8px);
+
+}
+
+.contact-icon{
+
+    width:36px;
+
+    height:36px;
+
+    border-radius:50%;
+
+    background:#38bdf8;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:14px;
+
+}
+
+.contact-item h4{
+
+    font-size:18px;
+
+    margin-bottom:5px;
+
+}
+
+.contact-item p{
+
+    color:#94a3b8;
+
+    font-size:15px;
+
+}
+
+.copy-btn{
+
+    background:#38bdf8;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.copy-btn:hover{
+
+    background:#0ea5e9;
+
+}
+
+/*================ SOCIAL ================*/
+
+.contact-social{
+
+    display:flex;
+
+    gap:18px;
+
+    margin-top:18px;
+
+}
+
+.contact-social a{
+
+    width:52px;
+
+    height:52px;
+
+    border-radius:50%;
+
+    background:#0f172a;
+
+    color:#38bdf8;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:20px;
+
+    transition:.35s;
+
+    text-decoration:none;
+
+}
+
+.contact-social a:hover{
+
+    background:#38bdf8;
+
+    color:white;
+
+    transform:translateY(-8px);
+
+}
+
+/*================ RIGHT CARD ================*/
+
+.contact-form-card{
+
+    background:#161b22;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    padding:16px;
+
+    transition:.35s;
+
+}
+
+.contact-form-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#38bdf8;
+
+    box-shadow:0 20px 45px rgba(56,189,248,.18);
+
+}
+.contact-form-card h2{
+
+    font-size:22px;
+
+    margin-bottom:16px;
+
+}
+
+
+/*================ INPUTS ================*/
+
+.input-group{
+
+    position:relative;
+
+    margin-bottom:18px;
+
+}
+
+.input-group input,
+.input-group textarea{
+
+    width:100%;
+
+    background:#0f172a;
+
+    border:2px solid rgba(255,255,255,.08);
+
+    border-radius:14px;
+
+       padding:12px 14px;
+
+    color:white;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.35s;
+
+    resize:none;
+
+}
+
+.input-group textarea{
+
+    min-height:70px;
+
+}
+
+.input-group label{
+
+    position:absolute;
+
+    left:16px;
+
+    top:18px;
+
+    color:#94a3b8;
+
+    pointer-events:none;
+
+    transition:.3s;
+
+    background:#161b22;
+
+    padding:0 6px;
+
+}
+
+/* Floating Label */
+
+.input-group input:focus,
+.input-group textarea:focus{
+
+    border-color:#38bdf8;
+
+    box-shadow:0 0 20px rgba(56,189,248,.20);
+
+}
+
+.input-group input:focus+label,
+.input-group input:valid+label,
+.input-group textarea:focus+label,
+.input-group textarea:valid+label{
+
+    top:-10px;
+
+    font-size:13px;
+
+    color:#38bdf8;
+
+}
+
+/*================ SEND BUTTON ================*/
+
+.send-btn{
+
+    width:100%;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:linear-gradient(135deg,#38bdf8,#0ea5e9);
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.send-btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 18px 35px rgba(56,189,248,.35);
+
+}
+
+.send-btn:active{
+
+    transform:scale(.98);
+
+}
+
+/*======================================
+        MOBILE RESPONSIVE
+======================================*/
+
+@media(max-width:992px){
+
+.contact-container{
+
+    grid-template-columns:1fr;
+
+    gap:35px;
+
+}
+
+.contact-card,
+.contact-form-card{
+
+    padding:35px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.contact{
+
+    padding:70px 6%;
+
+}
+
+.contact-container{
+
+    gap:25px;
+
+}
+
+.contact-card,
+.contact-form-card{
+
+    padding:25px;
+
+    border-radius:18px;
+
+}
+
+.contact-card h2,
+.contact-form-card h2{
+
+    font-size:24px;
+
+}
+
+.contact-text{
+
+    font-size:15px;
+
+}
+
+.contact-item{
+
+    flex-direction:column;
+
+    align-items:flex-start;
+
+    gap:15px;
+
+}
+
+.copy-btn{
+
+    width:100%;
+
+}
+
+.contact-social{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.contact-social a{
+
+    width:48px;
+
+    height:48px;
+
+    font-size:18px;
+
+}
+
+.input-group input,
+.input-group textarea{
+
+    font-size:15px;
+
+    padding:16px;
+
+}
+
+.send-btn{
+
+    height:54px;
+
+    font-size:16px;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.contact{
+
+    padding:60px 5%;
+
+}
+
+.contact-card,
+.contact-form-card{
+
+    padding:20px;
+
+}
+
+.contact-card h2,
+.contact-form-card h2{
+
+    font-size:24px;
+
+}
+
+.contact-badge{
+
+    font-size:12px;
+
+    padding:8px 14px;
+
+}
+
+.contact-icon{
+
+    width:48px;
+
+    height:48px;
+
+    font-size:18px;
+
+}
+
+.contact-item h4{
+
+    font-size:16px;
+
+}
+
+.contact-item p{
+
+    font-size:14px;
+
+}
+
+}
