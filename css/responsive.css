@@ -335,4 +335,47 @@ gap:28px;
     display:none;
 
 }
+/*=========================
+        SKILLS
+=========================*/
+
+.skills{
+
+    padding:80px 6%;
+
+}
+
+.skills-container{
+
+    grid-template-columns:1fr;
+
+    gap:20px;
+
+}
+
+.skill-card{
+
+    padding:22px;
+
+}
+
+.skill-card h3{
+
+    font-size:20px;
+
+}
+
+.skill-tags{
+
+    gap:10px;
+
+}
+
+.skill-tags span{
+
+    font-size:13px;
+
+    padding:8px 14px;
+
+}
 }
