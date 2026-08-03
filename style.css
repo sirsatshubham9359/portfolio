@@ -1667,3 +1667,131 @@ body{
 }
 
 }
+
+/*======================================
+            FOOTER
+======================================*/
+
+.footer{
+
+    padding:35px 10%;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    background:#0B1120;
+
+}
+
+.footer-content{
+
+    max-width:700px;
+
+    margin:auto;
+
+}
+
+.footer-content h3{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#ffffff;
+
+    margin-bottom:10px;
+
+    letter-spacing:1px;
+
+}
+
+.footer-content p{
+
+    color:#38BDF8;
+
+    font-size:16px;
+
+    margin-bottom:20px;
+
+    font-weight:500;
+
+    letter-spacing:.5px;
+
+}
+
+.footer-line{
+
+    width:70px;
+
+    height:3px;
+
+    background:#38BDF8;
+
+    margin:0 auto 20px;
+
+    border-radius:20px;
+
+}
+
+.footer-content small{
+
+    color:#94A3B8;
+
+    font-size:14px;
+
+    letter-spacing:.5px;
+
+}
+
+/* Hover Effect */
+
+.footer-content h3{
+
+    transition:.3s;
+
+}
+
+.footer-content h3:hover{
+
+    color:#38BDF8;
+
+}
+
+/*======================================
+        FOOTER MOBILE
+======================================*/
+
+@media(max-width:768px){
+
+.footer{
+
+    padding:28px 6%;
+
+}
+
+.footer-content h3{
+
+    font-size:24px;
+
+}
+
+.footer-content p{
+
+    font-size:15px;
+
+}
+
+.footer-content small{
+
+    font-size:13px;
+
+}
+
+.footer-line{
+
+    width:55px;
+
+}
+
+}
